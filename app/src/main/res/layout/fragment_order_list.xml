@@ -5,17 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".fragments.OrderFragment">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/mainTabLayout"
+    <ListView
+        android:id="@+id/orderListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabIndicatorColor="#000000"/>
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/mainViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
