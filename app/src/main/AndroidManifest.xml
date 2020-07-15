@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MyProfileFragment"></activity>
+        <activity android:name=".ChngNicknameActivity"></activity>
+        <activity android:name=".MyProfileFragment" />
         <activity android:name=".OrderDetailActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
